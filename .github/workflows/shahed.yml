@@ -44,6 +44,6 @@ jobs:
           script: |
             whoami
             git clone https://github.com/shahedmadni78/github-action2.git
-            cd /home/ec2-user/Snipe-IT
+            cd /home/ec2-user/github-action2
             sudo docker-compose up -d
 
