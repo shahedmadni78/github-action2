@@ -43,7 +43,7 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             whoami
-            git clone https://github.com/shahedmadni78/Snipe-IT.git
+            git clone https://github.com/shahedmadni78/github-action2.git
             cd /home/ec2-user/Snipe-IT
             sudo docker-compose up -d
 
