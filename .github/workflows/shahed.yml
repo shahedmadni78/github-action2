@@ -46,4 +46,5 @@ jobs:
             git clone https://github.com/shahedmadni78/github-action2.git
             cd /home/ubuntu/github-action2
             sudo docker-compose up -d
+            sudo docker-compose up --build -d
 
